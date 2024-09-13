@@ -1,0 +1,6 @@
+    SELECTCOLUMNS(
+            pt_ticket_sales,
+            "NDC", pt_ticket_sales[ndc],
+            "Ticket Number", pt_ticket_sales[ticket_no],
+            "Product Name", pt_ticket_sales[productname]
+    )    
